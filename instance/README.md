@@ -13,14 +13,20 @@ of **80**. Please update your deployment accordingly.
 
 ## Supported tags and respective Dockerfile links
 
-  - `:latest` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/master/instance/Dockerfile) (default)
-  - `:5.x` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/5.x/instance/Dockerfile)
-  - `:5.0` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/5.0/instance/Dockerfile)
-  - `:4.x` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/4.x/instance/Dockerfile)
-  - `:4.3.7` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/4.3.7/instance/Dockerfile)
-  - `:4.3.6` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/4.3.6/instance/Dockerfile)
+### Debian based (based on Plone official Docker image)
 
-### Changes
+  - `5.0.2`, `5.0`, `5`, `:latest` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/master/instance/Dockerfile) (default)
+  - `4.3.7`, `4.3`, `4` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/master/instance/Dockerfile) (default)
+
+### CentOS based (DEPRECATED)
+
+  - `:5.x-centos` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/5.x/instance/Dockerfile)
+  - `:5.0-centos` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/5.0/instance/Dockerfile)
+  - `:4.x-centos` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/4.x/instance/Dockerfile)
+  - `:4.3.7-centos` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/4.3.7/instance/Dockerfile)
+  - `:4.3.6-centos` [*Dockerfile*](https://github.com/eea/eea.docker.plone/blob/4.3.6/instance/Dockerfile)
+
+## Changes
 
  - [CHANGELOG.md](https://github.com/eea/eea.docker.plone/blob/master/CHANGELOG.md)
 
